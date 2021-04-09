@@ -1,0 +1,18 @@
+@import '../../assets/common.scss';
+
+.bonemarrow{
+    padding: 50px 100px;
+    &-heading{
+        color: $headlinecolor;
+    }
+    &-align{
+        &_cross{
+            width: 2%;
+            height: 2%;
+        }
+        &_description{
+            margin: -20px 0 5px 50px;
+            opacity: 0.8;
+        }
+    }
+}

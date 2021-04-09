@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Stag Sans';
+    src: local('Stag Sans Semi Bold'), local('Stag-Sans-Semi-Bold'),
+        url('StagSans-SemiBold.woff2') format('woff2'),
+        url('StagSans-SemiBold.woff') format('woff'),
+        url('StagSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }

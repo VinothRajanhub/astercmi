@@ -1,0 +1,12 @@
+@import '../../assets/common.scss';
+
+.testimonalcontact{
+    padding: 0 100px;
+    &_heading{
+        color: $headlinecolor;
+    }
+    &_subheading{
+        margin: -2px;
+        opacity: 0.8;
+    }
+}

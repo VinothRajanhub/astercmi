@@ -1,0 +1,62 @@
+.banner{
+    background-image: url('../../assets/banner.png');
+    background-repeat: no-repeat;
+    padding: 50px 130px 150px 130px;
+    display: flex;
+    &_heading{
+        color: #FFFFFF;
+        font-family: Titillium;
+        font-size: 28px;
+        letter-spacing: 1.28px;
+    }
+    &_heading1{
+        color: #FFFFFF;
+        font-family: Titillium;
+        font-size: 28px;
+        margin: 5px 0;
+        letter-spacing: 1.28px;
+    }
+    &_subheading{
+        color: white;
+        font-family: StagSans;
+        font-size: 25px;
+        letter-spacing: 3.59px;
+    }
+    &_card{
+        position: absolute;
+        right: 120px;
+        &-align{
+            padding-left: 20px;
+        }
+    }
+}
+
+
+@media all and (max-width: 992px) {
+    .banner{    
+        flex-direction: column-reverse;
+    }   
+    .banner_card{
+        position: absolute;
+        top: 30px;
+    }
+    .bannertextstyle{
+        visibility: hidden;
+    }
+}
+
+
+@media all and (max-width: 768px) {
+    .banner{    
+        flex-direction: column-reverse;
+        padding-top: 30px;
+    }   
+    .banner_card{
+        margin-left: 20px;
+        justify-content: center;
+        align-content: center;
+    }
+    .bannertextstyle{
+        visibility: hidden;
+    }
+}

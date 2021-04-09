@@ -1,0 +1,45 @@
+@import '../../assets/common.scss';
+
+.bonemarrowtransplant{
+    padding: 30px 100px;
+    &-align{
+        display: grid;
+        display: -moz-grid;
+        display: -ms-grid;
+        grid-template-columns: 45% 55%;
+        &_subheading{
+            border-bottom: 1px solid #c9c8c8;
+            padding: 20px 7px;
+            font-weight: 600;
+            opacity: 0.9;
+        }
+    }
+}
+
+.bonemarrowtransplant-align_subheading:hover{
+    background-color: $bonemarrow_hovercolor;
+    color: $bonemarrow_hovertextcolor;
+    border-radius: 5px;
+    padding: 20px 7px;
+}
+
+
+@media all and (max-width: 992px) {
+    .bonemarrowtransplant-align{
+        padding: 20px 0px;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-direction: column;
+    }   
+}
+
+@media all and (max-width: 768px) {
+    .bonemarrowtransplant-align{
+        padding: 20px 0px;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-direction: column;
+    }   
+}

@@ -1,0 +1,8 @@
+@import "../../assets/common.scss";
+
+.immunecard{
+    background-color: $immune-bgcolor; 
+    border: 1px solid $immune-bordercolor;
+    box-shadow: $immune-boxshadow;
+    padding: 15px;
+}

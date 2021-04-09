@@ -1,0 +1,27 @@
+@import "../../assets/common.scss";
+
+.doctors{
+    background-color: $doctor-bgcolor;
+    padding: 20px 0;
+    &__align{
+        text-align: center;
+        &-headline{
+            color: $doctor-headlinecolor;
+        }
+        &-degree{
+            color: $doctor-name;
+        }
+        &-degreestudy{
+            color: $doctor-name;
+        }
+        &-name{
+            color: $doctor-name;
+        }
+        &-description{
+            font-size: 15px;
+            text-align: center;
+            padding: 0 60px;
+            opacity: 0.8;
+        }
+    }
+}

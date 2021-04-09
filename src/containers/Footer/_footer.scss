@@ -1,0 +1,41 @@
+@import '../../assets/common.scss';
+
+@mixin socialmedia_align {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.footercontainer{
+    background-color: $footer-bgcolor;
+    height: 80px;
+    padding: 50px 0 80px 0;
+    &__socialmedia{
+       text-align: center;
+    }
+    &__insta{
+        @include socialmedia_align();
+    }
+    &__youtube{
+        @include socialmedia_align();
+    }
+    &__twit{
+        @include socialmedia_align();
+    }
+    &__linkedin{
+        @include socialmedia_align();
+    }
+    &__scroll{
+        float: right;
+        padding-right: 60px;
+        margin-top: -30px;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    &__copyrights{
+        text-align: center;
+        color: $footer-textcolor;
+        margin-top: 40px;
+    }
+}
+ 

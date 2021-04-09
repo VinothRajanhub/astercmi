@@ -1,0 +1,25 @@
+@import '../../assets/common.scss';
+
+.doctorprofileheading{
+    color: $doctor-headlinecolor;
+    padding: 0 100px;
+}
+
+.doctorprofile{
+    padding: 0px 100px;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-column-gap: 30px;
+}
+
+@media all and (max-width: 768px) {
+    .doctorprofile{
+        padding: 0px;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-direction: column;
+    }   
+}

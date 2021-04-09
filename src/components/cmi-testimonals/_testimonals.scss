@@ -1,0 +1,36 @@
+@import "../../assets/common.scss";
+
+.testimonals{
+    box-shadow: $testimonal_boxshadow;
+    padding: 40px 30px;
+    &_profiledesc{
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        justify-content: space-around;
+        &-photo{
+            width: 35%;
+            height: 70%;
+            padding-top: 10px;
+        }
+        &-text{
+            margin-left: 20px;
+        }
+        &-textline{
+            margin-left: 0px;
+            width: 150px;
+            font-size: 16px;
+        }
+        &-quote{
+            height: 80%;
+        }
+    }
+    &_description{
+        font-style: italic;
+    }
+    &_rowalign{
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}

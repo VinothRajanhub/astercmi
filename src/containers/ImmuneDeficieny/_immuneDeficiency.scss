@@ -1,0 +1,36 @@
+@import '../../assets/common.scss';
+
+.immunedeficiency{
+    padding: 0 100px;
+    &-heading{
+        color: $headlinecolor;
+    }
+    &-align{
+        display: grid;
+        display: -ms-grid;
+        display: -moz-grid;
+        grid-template-columns: repeat(4,25%);
+        grid-gap: 20px;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .immunedeficiency-align{
+        display: grid;
+        display: -ms-grid;
+        display: -moz-grid;
+        grid-template-columns: repeat(2,40%);
+        grid-gap: 20px;
+        padding: 0px;
+    }   
+}
+
+@media all and (max-width: 768px) {
+    .immunedeficiency-align{
+        padding: 0px;
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        flex-direction: column;
+    }   
+}
